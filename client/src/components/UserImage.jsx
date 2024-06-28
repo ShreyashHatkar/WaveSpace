@@ -8,7 +8,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`https://wavspacesocialmedia-dn44ophfx-shreyashs-projects-49cbaa92.vercel.app//assets/${image}`}
+        src={`https://wavspacesocialmedia-dn44ophfx-shreyashs-projects-49cbaa92.vercel.app/assets/${image}`}
       />
     </Box>
   );

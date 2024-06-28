@@ -35,7 +35,7 @@ import {
     const primary = palette.primary.main;
   
     const patchLike = async () => {
-      const response = await fetch(`https://wavspacesocialmedia-dn44ophfx-shreyashs-projects-49cbaa92.vercel.app//posts/${postId}/like`, {
+      const response = await fetch(`https://wavspacesocialmedia-dn44ophfx-shreyashs-projects-49cbaa92.vercel.app/posts/${postId}/like`, {
         method: "PATCH",
         headers: {
           Authorization: `Bearer ${token}`,
@@ -64,7 +64,7 @@ import {
             height="auto"
             alt="post"
             style={{ borderRadius: "0.75rem", marginTop: "0.75rem" }}
-            src={`https://wavspacesocialmedia-dn44ophfx-shreyashs-projects-49cbaa92.vercel.app//assets/${picturePath}`}
+            src={`https://wavspacesocialmedia-dn44ophfx-shreyashs-projects-49cbaa92.vercel.app/assets/${picturePath}`}
           />
         )}
         <FlexBetween mt="0.25rem">

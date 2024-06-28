@@ -13,7 +13,7 @@ const FriendListWidget = ({ userId }) => {
 
   const getFriends = async () => {
     const response = await fetch(
-      `https://wavspacesocialmedia-dn44ophfx-shreyashs-projects-49cbaa92.vercel.app//users/${userId}/friends`,
+      `https://wavspacesocialmedia-dn44ophfx-shreyashs-projects-49cbaa92.vercel.app/users/${userId}/friends`,
       {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },

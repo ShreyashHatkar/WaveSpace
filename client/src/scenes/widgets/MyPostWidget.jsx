@@ -46,7 +46,7 @@ import {
         formData.append("picturePath", image.name);
       }
   
-      const response = await fetch(`https://wavspacesocialmedia-dn44ophfx-shreyashs-projects-49cbaa92.vercel.app//posts`, {
+      const response = await fetch(`https://wavspacesocialmedia-dn44ophfx-shreyashs-projects-49cbaa92.vercel.app/posts`, {
         method: "POST",
         headers: { Authorization: `Bearer ${token}` },
         body: formData,

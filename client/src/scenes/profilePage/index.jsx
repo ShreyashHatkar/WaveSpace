@@ -15,7 +15,7 @@ const ProfilePage = () => {
   const isNonMobileScreens = useMediaQuery("(min-width:1000px)");
 
   const getUser = async () => {
-    const response = await fetch(`https://wavspacesocialmedia-dn44ophfx-shreyashs-projects-49cbaa92.vercel.app//users/${userId}`, {
+    const response = await fetch(`https://wavspacesocialmedia-dn44ophfx-shreyashs-projects-49cbaa92.vercel.app/users/${userId}`, {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
     });
